@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html {
   min-height: 100vh;
+}
+
+body {
+  min-height: 100vh
+}
+
+.card {
+  margin: 5vh;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 10px;
+  min-height: 90vh;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.upper-container {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 45vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.logo-img {
+  width: 130px;
+  height: 130px;
+  margin-top: -65px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 10px;
+}
+
+.follow-button {
+  border-radius: 10px;
+  width: 111px;
+  height: 35px;
+  border: 2px solid;
+  border-color: rgb(53, 4, 188);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.2;
+  color:  rgb(53, 4, 188);
+  background-color: transparent;
+  background-image: none;
+  margin-top: 1.5vh;
+}
+
+.follow-button:hover {
+  border-color: rgb(89, 135, 170);
+  color:  rgb(89, 135, 170);
+}
+
+.bottom-container {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+  padding-top: 1vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.title-text {
+  font-size: 24px;
+}
+
+.body-text {
+  font-size: 16px;
+}
+
+.footer-text {
+  font-size: 14px
 }
