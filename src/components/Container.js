@@ -32,7 +32,7 @@ function Container() {
     apiCall();
     imageFetch();
     logoFetch();
-  })
+  }, []);
 
   return (
     <div className="container">
